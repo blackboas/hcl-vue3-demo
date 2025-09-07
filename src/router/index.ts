@@ -8,6 +8,7 @@ import Layout from '@/layouts/MainLayout.vue'
 // 页面组件
 const Dashboard = () => import('@/views/dashboard/index.vue')
 const About = () => import('@/views/about/index.vue')
+const FlowChart = () => import('@/views/flowChart/index.vue')
 
 // 路由配置
 const routes: RouteRecordRaw[] = [
@@ -31,6 +32,15 @@ const routes: RouteRecordRaw[] = [
         component: About,
         meta: {
           title: '关于',
+          icon: 'info-circle'
+        }
+      },
+      {
+        path: '/flowChart',
+        name: 'flowChart',
+        component: FlowChart,
+        meta: {
+          title: '流程图',
           icon: 'info-circle'
         }
       }

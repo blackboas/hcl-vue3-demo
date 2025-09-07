@@ -19,7 +19,8 @@
   },
   "menu": {
     "dashboard": "Dashboard",
-    "about": "About"
+    "about": "About",
+    "flowChart": "flowChart"
   },
   "dashboard": {
     "title": "Dashboard",

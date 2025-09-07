@@ -32,6 +32,13 @@
           </template>
           <span>{{ $t('menu.about') }}</span>
         </a-menu-item>
+        
+        <a-menu-item key="flowChart">
+          <template #icon>
+            <InfoCircleOutlined />
+          </template>
+          <span>{{ $t('menu.flowChart') }}</span>
+        </a-menu-item>
       </a-menu>
     </a-layout-sider>
     
@@ -115,6 +122,8 @@ watch(
       selectedKeys[0] = 'dashboard'
     } else if (newPath === '/about') {
       selectedKeys[0] = 'about'
+    } else if (newPath === '/flowChart') {
+      selectedKeys[0] = 'flowChart'
     }
   },
   { immediate: true }
@@ -126,6 +135,8 @@ const handleMenuClick = ({ key }: { key: string }) => {
     router.push('/dashboard')
   } else if (key === 'about') {
     router.push('/about')
+  } else if (key === 'flowChart') {
+    router.push('/flowChart')
   }
 }
 
