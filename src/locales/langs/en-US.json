@@ -1,0 +1,49 @@
+{
+  "common": {
+    "appTitle": "Enterprise Management System",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "reset": "Reset",
+    "search": "Search",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "save": "Save",
+    "close": "Close",
+    "backHome": "Back Home",
+    "logout": "Logout",
+    "footer": "Enterprise Management System",
+    "login": "Login"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "about": "About"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to Enterprise Vue3 Application"
+  },
+  "about": {
+    "title": "About",
+    "description": "This is an enterprise-level application template based on Vue3 + Vite + TypeScript"
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "Sorry, the page you visited does not exist"
+    }
+  },
+  "login": {
+    "title": "System Login",
+    "username": "Username",
+    "password": "Password",
+    "usernamePlaceholder": "Please enter username",
+    "passwordPlaceholder": "Please enter password",
+    "usernameRequired": "Please enter username",
+    "passwordRequired": "Please enter password",
+    "loginSuccess": "Login successful",
+    "loginFailed": "Login failed, please check username and password"
+  }
+}

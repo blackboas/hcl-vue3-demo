@@ -1,0 +1,49 @@
+{
+  "common": {
+    "appTitle": "企业管理系统",
+    "confirm": "确认",
+    "cancel": "取消",
+    "submit": "提交",
+    "reset": "重置",
+    "search": "搜索",
+    "add": "新增",
+    "edit": "编辑",
+    "delete": "删除",
+    "view": "查看",
+    "save": "保存",
+    "close": "关闭",
+    "backHome": "返回首页",
+    "logout": "退出登录",
+    "footer": "企业管理系统",
+    "login": "登录"
+  },
+  "menu": {
+    "dashboard": "仪表盘",
+    "about": "关于"
+  },
+  "dashboard": {
+    "title": "仪表盘",
+    "welcome": "欢迎使用企业级 Vue3 应用"
+  },
+  "about": {
+    "title": "关于",
+    "description": "这是一个基于 Vue3 + Vite + TypeScript 的企业级应用模板"
+  },
+  "error": {
+    "404": {
+      "title": "404",
+      "description": "抱歉，您访问的页面不存在"
+    }
+  },
+  "login": {
+    "title": "系统登录",
+    "username": "用户名",
+    "password": "密码",
+    "usernamePlaceholder": "请输入用户名",
+    "passwordPlaceholder": "请输入密码",
+    "usernameRequired": "请输入用户名",
+    "passwordRequired": "请输入密码",
+    "loginSuccess": "登录成功",
+    "loginFailed": "登录失败，请检查用户名和密码"
+  }
+}

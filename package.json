@@ -1,0 +1,42 @@
+{
+  "name": "hcl-vue3-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.vue",
+    "lint:fix": "eslint src --ext .ts,.vue --fix",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@antv/x6": "^2.18.1",
+    "ant-design-vue": "^4.2.6",
+    "axios": "^1.11.0",
+    "echarts": "^5.6.0",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.21",
+    "vue-i18n": "^9.14.5",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/node": "^22.18.1",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "eslint": "^8.57.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-vue": "^9.33.0",
+    "sass": "^1.92.1",
+    "sass-loader": "^16.0.5",
+    "typescript": "^5.9.2",
+    "vite": "^5.4.19",
+    "vue-tsc": "^2.2.12"
+  }
+}
